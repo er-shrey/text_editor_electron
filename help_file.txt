@@ -1,0 +1,9 @@
+"linux": {
+      "target": [
+        "deb"
+      ]
+    },
+	"mac": {
+	  "category": "public.app-category.developer-tools",
+	  "target": "default"
+	}

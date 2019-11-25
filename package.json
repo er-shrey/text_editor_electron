@@ -1,0 +1,25 @@
+{
+  "name": "Editor",
+  "version": "1.0.0",
+  "description": "Training",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "build": {
+    "appId": "Editor",
+    "win": {
+      "target": "NSIS",
+      "icon": "icon/icon.ico"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.1.0",
+    "electron-builder": "^20.39.0"
+  },
+  "dependencies": {}
+}

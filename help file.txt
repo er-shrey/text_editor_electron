@@ -1,0 +1,30 @@
+"linux": {
+      "target": [
+        "deb"
+      ]
+    },
+	"mac": {
+	  "category": "public.app-category.developer-tools",
+	  "target": "default"
+	}
+
+
+npm init
+
+npm install --save-dev electron
+
+create app.js
+
+create webPage.html
+
+npm start
+
+
+Packaging:
+install electron-builder
+
+add script
+
+add icon
+
+npm run dist
